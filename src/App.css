@@ -1,38 +1,119 @@
-.App {
+body {
+  margin: 0;
+  padding-bottom: 50px;
+  background-color: #23252C;
+}
+
+.container {
+  margin: 10px auto 10px auto;
+  /* padding: 30px; */
+  border-radius: 10px;
+  width: 325px;
+  /* height: 750px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.5);
+}
+
+.profileImg {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 325px;
+  height: 325px;
+}
+
+.profile-info {
+  background-color: #1A1B21;
+  color: #ffffff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name {
+  margin-bottom: 0;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.work {
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.site {
+  color: #F5F5F5;
+  margin: 5px 0 10px;
+  font-weight: 300;
+}
+
+.profile-info > h4 {
+  color: #F3BF99;
+}
+
+.emailBtn {
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: 115px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+
+.linkedinBtn {
+  font-weight: bold;
+  color: #fff;
+  background-color: #5093E2;
+  border: none;
+  border-radius: 5px;
+  width: 115px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+button > i {
+  margin-right: 10px;
+}
+
+.fa-linkedin {
+  width: 15px;
+  color: #5093E2;
+  background-color: #ffffff;
+}
+
+.title {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about--p {
+  color: #DCDCDC;
+  font-weight: 200;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.title--p {
+  color: #DCDCDC;
+  font-weight: 200;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+
+.footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  background-color: #161619;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+  margin: auto;
 }
